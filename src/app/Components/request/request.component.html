@@ -1,0 +1,47 @@
+<app-navbar></app-navbar>
+
+<h1 class="text-center">Solicitudes</h1>
+<div class="container">
+
+    <div class="row solicitudes">
+        <div class="col-md-5 mt-4">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">
+                        Buscar ID
+                    </div>
+                </div>
+                <input type="buscar" id="inputBuscar" class="form-control" [(ngModel)]="buscar">
+            </div>
+        </div>
+        <div class="row table-responsive ">
+            <div class="col-md-12">
+                <table class="table table-hover mt-4">
+                    <thead>
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Fecha de nacimiento</th>
+                            <th scope="col">Ciudad</th>
+                            <th scope="col">Dirección</th>
+                            <th scope="col">Producto</th>
+                            <th scope="col">Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let solicitud of solicitudes.datos | searchID: buscar">
+                            <td>{{solicitud.id}}</td>
+                            <td>{{solicitud.nombre}}</td>
+                            <td>{{solicitud.fecha}}</td>
+                            <td>{{solicitud.ciudad}}</td>
+                            <td>{{solicitud.direccion}}</td>
+                            <td>{{solicitud.producto}}</td>
+                            <td>{{solicitud.precio}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+    </div>
