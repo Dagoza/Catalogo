@@ -2,7 +2,7 @@
 
 Estructura de sitio web realizado en Angular 6 con Bootstrap 4 en la cual se puede visualizar un catálogo de diferentes productos obtenidos consumiendo un API.
 
-## INICIO
+## Getting started
 
 1. Ir a la carpeta del proyecto e instalar dependencias.
  ```bash
@@ -13,7 +13,7 @@ Estructura de sitio web realizado en Angular 6 con Bootstrap 4 en la cual se pue
  ```bash
  ng serve
  ```
-## Funciones
+## Features
 
 * Cards como catálogo de productos
 * Filtrar por productos
