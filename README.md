@@ -1,6 +1,6 @@
 # Catálogo - Angular 6
 
-Estructura de sitio web realizado en Angular 6 con Bootstrap 4 en la cual se puede visualizar un catálogo de diferentes productos obtenidos consumiendo un API.
+Sitio web realizado en Angular 6 con Bootstrap 4 en la cual se puede visualizar un catálogo de diferentes productos obtenidos consumiendo un API.
 
 ## INICIO
 
