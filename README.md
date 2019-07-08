@@ -32,3 +32,9 @@ Sitio web realizado en Angular 6 con Bootstrap 4 en la cual se puede visualizar 
 ### Version: 1.0
 
   * Primera versión
+  
+# Capturas
+<img src="https://github.com/Dagoza/Catalogo/blob/master/src/assets/Imgrepo/Productos.png" >
+<img src="https://github.com/Dagoza/Catalogo/blob/master/src/assets/Imgrepo/Solicitud.png" >
+<img src="https://github.com/Dagoza/Catalogo/blob/master/src/assets/Imgrepo/Imagen.png" >
+<img src="https://github.com/Dagoza/Catalogo/blob/master/src/assets/Imgrepo/TablaSolicitud.png" >
