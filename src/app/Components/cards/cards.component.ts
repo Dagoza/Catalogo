@@ -17,6 +17,7 @@ export class CardsComponent implements OnInit {
   @Input() imagen: string;
   @Input() idProducto: number;
   form: FormGroup;
+  id: number;
   ciudades = [
     'Abejorral',
     'Abriaqu\u00ed',
@@ -199,6 +200,7 @@ export class CardsComponent implements OnInit {
         const enviar = { datos: [formulario] };
         localStorage.setItem('solicitudes', JSON.stringify(enviar));
       }
+      this.id =  formulario.id;
       this.createForm();
     } else {
       alert('Datos incompletos.');
