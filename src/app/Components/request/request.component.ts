@@ -7,11 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RequestComponent implements OnInit {
   solicitudes: any;
+  existen = false;
   buscar: string;
   constructor() { }
 
   ngOnInit() {
-    this.solicitudes = JSON.parse(localStorage.getItem('solicitudes'));
+    if (localStorage.getItem('solicitudes')) {
+      this.existen = true;
+      this.solicitudes = JSON.parse(localStorage.getItem('solicitudes'));
+    }
   }
 
 }
