@@ -2,7 +2,7 @@
 
 Sitio web realizado en Angular 6 con Bootstrap 4 en la cual se puede visualizar un catálogo de diferentes productos obtenidos consumiendo un API.
 
-## INICIO
+## GETTING STARTED
 
 1. Ir a la carpeta del proyecto e instalar dependencias.
  ```bash
@@ -13,7 +13,7 @@ Sitio web realizado en Angular 6 con Bootstrap 4 en la cual se puede visualizar 
  ```bash
  ng serve
  ```
-## Funciones
+## FEATURES
 
 * Cards como catálogo de productos
 * Filtrar por productos
